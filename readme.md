@@ -2,9 +2,22 @@
 
 ## To use:
 1. Git clone this repo  
-2. pip install any missing packages (i.e. pip install selenium in bash or python -py pip install package_name)  
-3. Set the path variable in Searcher.py.  
-4. Check version of chrome on local computer. Replace chromedriver.exe with appropriate version if you have a different version than 113.  
+2. Set the path variable in Searcher.py.  
+3. Check version of chrome on local computer. Replace chromedriver.exe with appropriate version if you have a different version than 113.  
+
+1.
+```
+git clone https://github.com/bilan604/GoogleSearch.git
+```
+2.
+```
+path = c:/Users/your_path_to_current_folder/GoogleSearch
+```
+In your file Python:
+```
+from GoogleSearch.SearchAPI import search, ask_question
+```
+
 
 Usage:
 
