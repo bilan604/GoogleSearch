@@ -1,4 +1,4 @@
-## Google Search API endpoint
+# Gets Google Search Results
 
 ## To use:
 1. Git clone this repo  
