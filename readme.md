@@ -3,17 +3,18 @@
 ## To use:
 1. Git clone this repo  
 2. Set the path variable in Searcher.py.  
-3. Check version of chrome on local computer. Replace chromedriver.exe with appropriate version if you have a different version than 113.  
+3. Check version of chrome on local computer. Replace chromedriver.exe with appropriate version if you have a different version than 113.   
 
-1.
+i.e.  
+In console
 ```
 git clone https://github.com/bilan604/GoogleSearch.git
 ```
-2.
+In GoogleSearch.SearchAPI.py
 ```
 path = c:/Users/your_path_to_current_folder/GoogleSearch
 ```
-In your file Python:
+In your file using the Search
 ```
 from GoogleSearch.SearchAPI import search, ask_question
 ```
